@@ -1,6 +1,6 @@
 # Gyani Tutorials website
 
-Next.js (App Router) website for Gyani Tutorials: home tuition in Dehradun and online tuition across India.
+Next.js 16 (App Router) website for Gyani Tutorials: home tuition in Dehradun and online tuition across India.
 
 ## Run locally
 ```bash
