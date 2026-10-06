@@ -74,11 +74,11 @@ export default function Page() {
 <p className="sub">Every tutor is verified and skilled in their subject.</p>
 
 <div className="tut">
-<div className="t"><div className="ph"><Photo src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=700&q=85" alt="Tutor name, Maths and Science tutor" /></div><div className="b"><h3>Tutor name</h3><p>Maths and Science<br />Qualification · Experience</p></div></div>
-<div className="t"><div className="ph"><Photo src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?auto=format&fit=crop&w=700&q=85" alt="Tutor name, English and Hindi tutor" /></div><div className="b"><h3>Tutor name</h3><p>English and Hindi<br />Qualification · Experience</p></div></div>
-<div className="t"><div className="ph"><Photo src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=85" alt="Tutor name, Class 11–12 Science tutor" /></div><div className="b"><h3>Tutor name</h3><p>Class 11–12 Science<br />Qualification · Experience</p></div></div>
-<div className="t"><div className="ph"><Photo src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=700&q=85" alt="Tutor name, Spoken languages tutor" /></div><div className="b"><h3>Tutor name</h3><p>Spoken languages<br />Qualification · Experience</p></div></div>
-</div>
+<div className="t"><div className="ph"><Photo src="/tutors/tutor-1.jpg" alt="Gyani Tutorials faculty member" /></div><div className="b"><h3>Gyani Faculty</h3><p>Dehradun-based academic tutor<br />Subject-focused teaching · Personal attention</p></div></div>
+<div className="t"><div className="ph"><Photo src="/tutors/tutor-2.jpg" alt="Gyani Tutorials faculty member" /></div><div className="b"><h3>Gyani Faculty</h3><p>Dehradun-based academic tutor<br />Concept clarity · One-to-one guidance</p></div></div>
+<div className="t"><div className="ph"><Photo src="/tutors/tutor-3.jpg" alt="Jai Prakash Agarwal, Professor and Maths Teacher" /></div><div className="b"><h3>Jai Prakash Agarwal</h3><p>Professor, DIT University, Dehradun<br />Faculty of Gyani Tutorials · Experienced Maths Teacher</p></div></div>
+<div className="t"><div className="ph"><Photo src="/tutors/tutor-4.jpg" alt="Gyani Tutorials faculty member" /></div><div className="b"><h3>Gyani Faculty</h3><p>Dehradun-based academic tutor<br />Student-focused teaching · Personal guidance</p></div></div>
+</div></div>
 <p style={{margin:'26px 0 0'}}><Link className="btn" href="/#tutor">Join as a tutor</Link></p>
 </div></section>
 
