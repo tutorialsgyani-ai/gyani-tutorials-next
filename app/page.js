@@ -74,10 +74,10 @@ export default function Page() {
 <p className="sub">Every tutor is verified and skilled in their subject.</p>
 
 <div className="tut">
-<div className="t"><div className="ph"><Photo src="/tutors/tutor-1.jpg" alt="Gyani Tutorials faculty member" /></div><div className="b"><h3>Gyani Faculty</h3><p>Dehradun-based academic tutor<br />Subject-focused teaching · Personal attention</p></div></div>
-<div className="t"><div className="ph"><Photo src="/tutors/tutor-2.jpg" alt="Gyani Tutorials faculty member" /></div><div className="b"><h3>Gyani Faculty</h3><p>Dehradun-based academic tutor<br />Concept clarity · One-to-one guidance</p></div></div>
-<div className="t"><div className="ph"><Photo src="/tutors/tutor-3.jpg" alt="Jai Prakash Agarwal, Professor and Maths Teacher" /></div><div className="b"><h3>Jai Prakash Agarwal</h3><p>Professor, DIT University, Dehradun<br />Faculty of Gyani Tutorials · Experienced Maths Teacher</p></div></div>
-<div className="t"><div className="ph"><Photo src="/tutors/tutor-4.jpg" alt="Gyani Tutorials faculty member" /></div><div className="b"><h3>Gyani Faculty</h3><p>Dehradun-based academic tutor<br />Student-focused teaching · Personal guidance</p></div></div>
+<div className="t"><div className="ph"><Photo src="/tutors/tutor-1.jpg" alt="Gyani Tutorials faculty member" /></div><div className="b"><h3>Senior Academic Mentor</h3><p>Maths &amp; Science · Dehradun<br />Concept clarity · Personal attention</p></div></div>
+<div className="t"><div className="ph"><Photo src="/tutors/tutor-2.jpg" alt="Gyani Tutorials faculty member" /></div><div className="b"><h3>Academic Mentor</h3><p>English &amp; Languages · Dehradun<br />Communication · One-to-one guidance</p></div></div>
+<div className="t"><div className="ph"><Photo src="/tutors/tutor-3.jpg" alt="Jai Prakash Agarwal, Professor and Maths Teacher" /></div><div className="b"><h3>Senior Maths Faculty</h3><p>Experienced Maths Teaching · Dehradun<br />Faculty profile · Concept-focused guidance</p></div></div>
+<div className="t"><div className="ph"><Photo src="/tutors/tutor-4.jpg" alt="Gyani Tutorials faculty member" /></div><div className="b"><h3>Senior School Mentor</h3><p>School Academics · Dehradun<br />Student-focused teaching · Personal guidance</p></div></div>
 </div></div>
 <p style={{margin:'26px 0 0'}}><Link className="btn" href="/#tutor">Join as a tutor</Link></p>
 </div></section>
