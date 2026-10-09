@@ -3,12 +3,35 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 export const metadata = {
+  metadataBase: new URL('https://gyanitutorialshometuition.com'),
+  alternates: { canonical: '/' },
+  keywords: [
+    'home tuition in Dehradun', 'best home tuition in Dehradun', 'home tuition teacher in Dehradun',
+    'home tutors in Dehradun', 'home tuition near me', 'home tuitions near me',
+    'home tuition for Class 1 to 5', 'private tutor in Dehradun', 'private tutoring',
+    'female home tutor near me', 'home tuition teacher', 'home tuition jobs in Dehradun',
+    'guitar tuition in Dehradun', 'online tuition in India', 'home tutor site'
+  ],
+  openGraph: {
+    type: 'website',
+    locale: 'en_IN',
+    url: '/',
+    siteName: 'Gyani Tutorials',
+    title: 'Gyani Tutorials | Home Tuition in Dehradun & Online Tuition in India',
+    description: 'Find personalised home tuition in Dehradun and live online tutoring across India for school subjects, exams and creative classes.'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Gyani Tutorials | Home Tuition in Dehradun',
+    description: 'Personalised home tuition in Dehradun and online tuition across India.'
+  },
+  robots: { index: true, follow: true },
   title: {
     default: 'Gyani Tutorials | Home Tuition in Dehradun & Online Tuition in India',
     template: '%s | Gyani Tutorials',
   },
   description:
-    'Verified home tutors in Dehradun and online classes across India. Matched with the right tutor in 24 to 72 hours.',
+    'Find personalised home tuition in Dehradun and online classes across India. Enquire for school subjects, exam preparation and creative lessons with Gyani Tutorials.',
 };
 
 export const viewport = { width: 'device-width', initialScale: 1, viewportFit: 'cover' };
