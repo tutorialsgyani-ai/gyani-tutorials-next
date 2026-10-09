@@ -6,15 +6,16 @@ import TutorForm from '../components/TutorForm';
 export default function Page() {
   return (
 <main id="home">
+<script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({"@context":"https://schema.org","@type":"EducationalOrganization","name":"Gyani Tutorials","url":"https://gyanitutorialshometuition.com/","telephone":"+91-7668789504","areaServed":["Dehradun, Uttarakhand","India"],"description":"Home tuition in Dehradun and live online tutoring across India for school students and learners.","address":{"@type":"PostalAddress","addressLocality":"Dehradun","addressRegion":"Uttarakhand","addressCountry":"IN"},"sameAs":["https://www.instagram.com/gyani_tutorials_/"]})}} />
 <div className="hero"><div className="w">
-<h1>The right tutor, at your door or on your screen.</h1>
-<p>Gyani Tutorials connects parents and students with verified, skilled tutors who truly care about education. Personal one-on-one learning at an affordable fee.</p>
+<h1>Trusted Home Tuition in Dehradun. Personal Learning That Works.</h1>
+<p>Gyani Tutorials helps families find a suitable home tuition teacher in Dehradun and experienced online tutors across India. Get personal, one-to-one guidance for school subjects, exam preparation, music and more.</p>
 <div className="row"><Link className="btn" href="/#student">Book a Free Demo</Link><a className="btn o" href="https://wa.me/917668789504">WhatsApp 76687 89504</a></div>
 <div className="heroVisual">
   <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=85" alt="Tutor helping a student learn in a focused classroom setting" />
   <div className="heroBadge"><strong>Personal attention</strong><span>Home &amp; online tuition</span></div>
 </div>
-<div className="pills"><span>Home tuition in Dehradun</span><span>Online classes all over India</span><span>Tutor matched in 24 to 72 hours</span></div>
+<div className="pills"><span>Home tuition in Dehradun</span><span>Online tuition across India</span><span>Classes 1–12 and beyond</span></div>
 </div>
 <div className="trustStrip"><div className="w trustItems">
 <span>✓ Verified tutors</span><span>✓ One-to-one learning</span><span>✓ Home tuition in Dehradun</span><span>✓ Online classes across India</span>
@@ -42,7 +43,7 @@ export default function Page() {
 </div></section>
 
 <section id="courses"><div className="w">
-<h2>Courses we offer</h2>
+<h2>Home Tuition for Classes 1–12 and Beyond</h2>
 <p className="sub">From school subjects to entrance exams and communication skills.</p>
 <div className="courses">
 <div className="c"><h3>School subjects</h3><p>Maths, English and Science tutors, with expert help for Class 10 and 12.</p></div>
@@ -50,7 +51,7 @@ export default function Page() {
 <div className="c"><h3>School entrance exams</h3><p>Preparation for school entrance tests, including RIMC entrance coaching.</p></div>
 <div className="c"><h3>CAT, IELTS, SAT, GMAT</h3><p>Private tutors for competitive and overseas entrance exams.</p></div>
 <div className="c"><h3>Computer classes</h3><p>Learn computer skills with a personal tutor.</p></div>
-<div className="c"><h3>Yoga, dance and music</h3><p>Creative and wellbeing classes with personal guidance.</p></div>
+<div className="c"><h3>Guitar, music, yoga and dance</h3><p>Find personal guidance for guitar tuition in Dehradun, music, yoga and dance classes.</p></div>
 <div className="c"><h3>Spoken languages</h3><p>Hindi, English, Sanskrit, French, Arabic and more, to build fluency and confidence.</p></div>
 </div>
 </div></section>
@@ -69,18 +70,7 @@ export default function Page() {
 </div>
 </div></section>
 
-<section id="tutors" className="mint"><div className="w">
-<h2>Our tutors</h2>
-<p className="sub">Every tutor is verified and skilled in their subject.</p>
 
-<div className="tut">
-<div className="t"><div className="ph"><Photo src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=700&q=85" alt="Tutor name, Maths and Science tutor" /></div><div className="b"><h3>Tutor name</h3><p>Maths and Science<br />Qualification · Experience</p></div></div>
-<div className="t"><div className="ph"><Photo src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?auto=format&fit=crop&w=700&q=85" alt="Tutor name, English and Hindi tutor" /></div><div className="b"><h3>Tutor name</h3><p>English and Hindi<br />Qualification · Experience</p></div></div>
-<div className="t"><div className="ph"><Photo src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=85" alt="Tutor name, Class 11–12 Science tutor" /></div><div className="b"><h3>Tutor name</h3><p>Class 11–12 Science<br />Qualification · Experience</p></div></div>
-<div className="t"><div className="ph"><Photo src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=700&q=85" alt="Tutor name, Spoken languages tutor" /></div><div className="b"><h3>Tutor name</h3><p>Spoken languages<br />Qualification · Experience</p></div></div>
-</div>
-<p style={{margin:'26px 0 0'}}><Link className="btn" href="/#tutor">Join as a tutor</Link></p>
-</div></section>
 
 <section id="why"><div className="w">
 <h2>Why families choose Gyani Tutorials</h2>
@@ -101,6 +91,19 @@ export default function Page() {
 <div className="rev"><p>The best thing about Gyani Tutorials is the personal attention. The tutors know each student's strengths and weaknesses and guide us accordingly.</p><small>Student review</small></div>
 </div></section>
 
+<section id="faq"><div className="w">
+<h2>Home Tuition FAQs</h2>
+<p className="sub">Quick answers for parents, students and tutors looking for reliable tuition in Dehradun.</p>
+<div className="faqGrid">
+<details className="faq"><summary>How can I find home tuition near me in Dehradun?</summary><p>Tell Gyani Tutorials your area, class, subject and preferred schedule through our student enquiry form or WhatsApp. We will contact you to discuss a suitable tutor. Home tuition is currently offered in Dehradun; online tuition is available across India.</p></details>
+<details className="faq"><summary>Do you provide home tuition for Classes 1 to 5?</summary><p>Yes. Families can enquire about a private tutor for primary classes, including English, Maths, Science and other school subjects. Fees depend on class, subjects, frequency and location, so request a quote for your needs.</p></details>
+<details className="faq"><summary>How do I find a female home tutor?</summary><p>You can mention a preference for a female home tutor in your enquiry. We will discuss availability and suitability before confirming a demo.</p></details>
+<details className="faq"><summary>Can I find a guitar teacher or music tutor in Dehradun?</summary><p>Yes, you can enquire about guitar, music and other personal learning classes. Availability depends on your area and preferred timings.</p></details>
+<details className="faq"><summary>Are you hiring home tuition teachers?</summary><p>We welcome tutor enquiries from teachers seeking home tuition jobs in Dehradun or online tutoring opportunities. Use the “Join as a tutor” form to share your subject, experience and availability.</p></details>
+<details className="faq"><summary>How much does home tuition for Classes 1 to 5 cost?</summary><p>Fees vary by subject count, class, travel distance, lesson frequency and tutor experience. Contact us for a fee estimate based on your requirements.</p></details>
+</div>
+<p style={{marginTop:"24px"}}><a className="btn" href="https://wa.me/917668789504?text=Hello%20Gyani%20Tutorials%2C%20I%20want%20to%20enquire%20about%20home%20tuition%20in%20Dehradun.">Ask about tuition on WhatsApp</a></p>
+</div></section>
 <section id="student"><div className="w ct">
 <div>
 <h2>Join Gyani Tutorials as a student</h2>

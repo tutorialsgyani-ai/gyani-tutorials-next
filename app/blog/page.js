@@ -1,6 +1,8 @@
 import Link from 'next/link';
 
 export const metadata = {
+  alternates: { canonical: '/blog' },
+  openGraph: { type: 'website', url: '/blog', title: 'Gyani Tutorials Blog | Home Tuition Advice', description: 'Practical advice for parents and students on choosing tutors, home vs online tuition and exam preparation.' },
   title: 'Blog',
   description: 'Advice for parents and students on choosing tutors, home vs online tuition and exam preparation.',
 };
