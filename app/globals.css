@@ -191,3 +191,48 @@ section[id]{scroll-margin-top:84px}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+
+/* Fix: hero text hidden behind image */
+.hero .w {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  column-gap: 48px;
+  align-items: center;
+}
+.hero .w > h1,
+.hero .w > p,
+.hero .w > .row,
+.hero .w > .pills {
+  grid-column: 1;
+  max-width: 100%;
+}
+.hero h1 {
+  font-size: clamp(2.2rem, 4.4vw, 4rem);
+  line-height: 1.08;
+  overflow-wrap: break-word;
+}
+.hero .w > .heroVisual {
+  grid-column: 2;
+  grid-row: 1 / span 4;
+  position: relative;
+  inset: auto;
+  width: 100%;
+  max-width: 100%;
+}
+.heroVisual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+}
+.hero .pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Phones and tablets: stack photo below the text */
+@media (max-width: 860px) {
+  .hero .w { grid-template-columns: 1fr; }
+  .hero .w > .heroVisual { grid-column: 1; grid-row: auto; margin-top: 24px; }
+}
